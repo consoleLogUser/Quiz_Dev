@@ -1,0 +1,1 @@
+voirQuestion(questionnaire[questionIndex]);

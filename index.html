@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="quiz-container">
+            <h2>Quiz Dev</h2>
+            <div class="zoneOptions" id="optionSource">
+                <div class="optionSource">
+                    <input type="radio" name="optionSource" id="GitHub" value="1" checked>
+                    <label for="GitHub">Git & GitHub</label>
+                    <span class="separateur">|</span>
+                    <input type="radio" name="optionSource" id="javaScript" value="2">
+                    <label for="javaScript">JavaScript</label>
+                </div>
+                <p>Choisissez votre option et répondez aux questions qui s'affiche dans le champ en-dessous.</p>
+            </div>
+            <div id="question"></div>
+            <div id="message">Clique sur la bonne réponse</div>
+            <div id="options"></div>
+            <div id="score"></div>
+            <button id="btnRecommencer">Recommencer la partie</button>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Created with &#128152 by
+            <a target="_blank" href="https://github.com/consoleLogUser">ConsoleLogUser</a>
+            
+        </p>
+    </footer>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
